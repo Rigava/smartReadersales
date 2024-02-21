@@ -50,7 +50,7 @@ with left_col:
     st.text("")
     st.write(PRODUCT_DESCRIPTION)
     st.markdown(
-        f'<a href={STRIPE_COFFEE} class="button">👉 Enjoy</a>',
+        f'<a href={STRIPE_COFFEE} class="button">👉 Get the pro version</a>',
         unsafe_allow_html=True,
     )
 with right_col:
