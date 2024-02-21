@@ -11,7 +11,7 @@ CSS_FILE = STYLES_DIR / "main.css"
 
 # --- GENERAL SETTINGS ---
 STRIPE_COFFEE = "https://buy.stripe.com/test_aEUcNy6kTdR5e3eaEG" 
-STRIPE_CHECKOUT = "https://buy.stripe.com/test_14k5l6dNlaETcZa145"
+STRIPE_CHECKOUT = "https://smartreaderpro.streamlit.app/"
 CONTACT_EMAIL = "shuniya064@gmail.COM"
 DEMO_VIDEO = "https://joshpdfapp.streamlit.app/"
 PRODUCT_NAME = "Smart Reader"
