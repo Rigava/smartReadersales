@@ -15,7 +15,7 @@ STRIPE_CHECKOUT = "https://buy.stripe.com/test_14k5l6dNlaETcZa145"
 CONTACT_EMAIL = "shuniya064@gmail.COM"
 DEMO_VIDEO = "https://joshpdfapp.streamlit.app/"
 PRODUCT_NAME = "Smart Reader"
-PRODUCT_TAGLINE = "Summarize articles in seconds so you can focus on what's important 🚀"
+PRODUCT_TAGLINE = "Generates insights in seconds so you can focus on what's important 🚀"
 PRODUCT_DESCRIPTION = """
 Smart Reader is an interactive app that uses artificial intelligence to help you find insights in your articles, 
 papers,and other long-form content. It's perfect for students, professionals, 
@@ -78,7 +78,7 @@ features = {
 }
 for image, description in features.items():
     image = Image.open(ASSETS_DIR / image)
-    new_image = image.resize((180,80))
+    new_image = image.resize((130,70))
     st.write("")
     left_col, right_col = st.columns(2)
     left_col.image(new_image, use_column_width=True)
@@ -90,7 +90,6 @@ for image, description in features.items():
 st.write("")
 st.write("---")
 st.subheader(":tv: Demo")
-
 # st.video(DEMO_VIDEO, format="video/mp4", start_time=0)
 st.markdown(
     f'<a href={DEMO_VIDEO} class="button">👉 Get the demo of whats in there</a>',
