@@ -24,7 +24,7 @@ and anyone else who wants to save time and get the most out of their reading.
 - Get the key insights from your reading in minutes.
 - It does a summary from the most of the relevant pages.
 
-**Stay ahead of the curve with our easy-to-use Smart Reader**
+**Stay ahead of the curve with the easy-to-use Smart Reader**
 """
 
 def load_css_file(css_file_path):
@@ -50,7 +50,7 @@ with left_col:
     st.text("")
     st.write(PRODUCT_DESCRIPTION)
     st.markdown(
-        f'<a href={STRIPE_COFFEE} class="button">👉 Get the pro version</a>',
+        f'<a href={DEMO_VIDEO} class="button">👉 Check out the demo version</a>',
         unsafe_allow_html=True,
     )
 with right_col:
@@ -89,10 +89,10 @@ for image, description in features.items():
 # --- DEMO ---
 st.write("")
 st.write("---")
-st.subheader(":tv: Demo")
+st.subheader(":tv: Pro Reader")
 # st.video(DEMO_VIDEO, format="video/mp4", start_time=0)
 st.markdown(
-    f'<a href={DEMO_VIDEO} class="button">👉 Get the demo of whats in there</a>',
+    f'<a href={STRIPE_COFFEE} class="button">👉 Get the PRO version </a>',
     unsafe_allow_html=True,
 )
 
