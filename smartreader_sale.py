@@ -10,10 +10,10 @@ CSS_FILE = STYLES_DIR / "main.css"
 
 
 # --- GENERAL SETTINGS ---
-STRIPE_COFFEE = "https://smartreaderpro.streamlit.app/" 
+STRIPE_COFFEE = "https://smartpro.streamlit.app/" 
 STRIPE_CHECKOUT = "https://buy.stripe.com/test_aEUcNy6kTdR5e3eaEG"
 CONTACT_EMAIL = "shuniya064@gmail.COM"
-DEMO_VIDEO = "https://joshpdfapp.streamlit.app/"
+DEMO_VIDEO = "https://simplesummary.streamlit.app/"
 PRODUCT_NAME = "Smart Reader"
 PRODUCT_TAGLINE = "Generates insights in seconds so you can focus on what's important 🚀"
 PRODUCT_DESCRIPTION = """
